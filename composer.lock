@@ -1,0 +1,362 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f50a6840b1ba5857f92fbb9b2b7d7b34",
+    "packages": [
+        {
+            "name": "php-yaoi/php-yaoi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-yaoi/php-yaoi.git",
+                "reference": "5be99ff5757e11af01ed1cc3dbabf0438100f94e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-yaoi/php-yaoi/zipball/5be99ff5757e11af01ed1cc3dbabf0438100f94e",
+                "reference": "5be99ff5757e11af01ed1cc3dbabf0438100f94e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "0.1.2",
+                "phpunit/phpunit": "4.8.23"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yaoi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com",
+                    "homepage": "https://github.com/vearutop"
+                }
+            ],
+            "description": "Yaoi is yet another object interleaver",
+            "homepage": "https://github.com/php-yaoi/php-yaoi",
+            "keywords": [
+                "framework"
+            ],
+            "time": "2017-12-10T10:04:34+00:00"
+        },
+        {
+            "name": "phplang/scope-exit",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phplang/scope-exit.git",
+                "reference": "239b73abe89f9414aa85a7ca075ec9445629192b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phplang/scope-exit/zipball/239b73abe89f9414aa85a7ca075ec9445629192b",
+                "reference": "239b73abe89f9414aa85a7ca075ec9445629192b",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpLang\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Sara Golemon",
+                    "email": "pollita@php.net",
+                    "homepage": "https://twitter.com/SaraMG",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Emulation of SCOPE_EXIT construct from C++",
+            "homepage": "https://github.com/phplang/scope-exit",
+            "keywords": [
+                "cleanup",
+                "exit",
+                "scope"
+            ],
+            "time": "2016-09-17T00:15:18+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2018-11-21T13:42:00+00:00"
+        },
+        {
+            "name": "swaggest/code-builder",
+            "version": "v0.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swaggest/code-builder.git",
+                "reference": "08fd7f2d8b4e7c52a37153abd31c014dab12351b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swaggest/code-builder/zipball/08fd7f2d8b4e7c52a37153abd31c014dab12351b",
+                "reference": "08fd7f2d8b4e7c52a37153abd31c014dab12351b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "php-yaoi/php-yaoi": "*",
+                "psr/log": "^1.0.1"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "0.1.2",
+                "phpunit/phpunit": "4.8.23"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swaggest\\CodeBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com",
+                    "homepage": "https://github.com/vearutop"
+                }
+            ],
+            "description": "GO code generation library",
+            "homepage": "https://github.com/swaggest/code-builder",
+            "keywords": [
+                "library"
+            ],
+            "time": "2018-05-02T09:13:55+00:00"
+        },
+        {
+            "name": "swaggest/json-diff",
+            "version": "v3.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swaggest/json-diff.git",
+                "reference": "dadb65fbc6888c9066c9eb167a98a721eb0f63a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swaggest/json-diff/zipball/dadb65fbc6888c9066c9eb167a98a721eb0f63a1",
+                "reference": "dadb65fbc6888c9066c9eb167a98a721eb0f63a1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.4.0",
+                "phpunit/php-code-coverage": "2.2.4",
+                "phpunit/phpunit": "^4.8.23"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swaggest\\JsonDiff\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com"
+                }
+            ],
+            "description": "JSON diff/rearrange/patch/pointer library for PHP",
+            "time": "2018-09-20T15:30:09+00:00"
+        },
+        {
+            "name": "swaggest/json-schema",
+            "version": "dev-relative-path",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrutman/php-json-schema.git",
+                "reference": "2d79489056c185b72fa4d3e4a4d35ccfd87cc63b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrutman/php-json-schema/zipball/2d79489056c185b72fa4d3e4a4d35ccfd87cc63b",
+                "reference": "2d79489056c185b72fa4d3e4a4d35ccfd87cc63b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "phplang/scope-exit": "^1.0",
+                "swaggest/json-diff": "^3.4.2"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "^0.4.0",
+                "phpunit/php-code-coverage": "2.2.4",
+                "phpunit/phpunit": "4.8.35",
+                "swaggest/code-builder": "dev-master#e0c5c0612fd241d2d120e5ddef91cda9edc208ee",
+                "swaggest/php-code-builder": "dev-master#3e643924445eb0f8d13dd011a57a42ce75629892"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swaggest\\JsonSchema\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Swaggest\\JsonSchema\\Tests\\": "tests/src/"
+                }
+            },
+            "scripts": {
+                "gen-json-struct": [
+                    "php ./tools/generate_json_structures.php"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com"
+                }
+            ],
+            "description": "High definition PHP structures with JSON-schema based validation",
+            "support": {
+                "email": "vearutop@gmail.com",
+                "source": "https://github.com/nrutman/php-json-schema/tree/master"
+            },
+            "time": "2018-11-11T16:55:55+00:00"
+        },
+        {
+            "name": "swaggest/php-code-builder",
+            "version": "dev-relative-path",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nrutman/php-code-builder.git",
+                "reference": "332f2305ccacce4829c15fe2e5597484209d48ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nrutman/php-code-builder/zipball/332f2305ccacce4829c15fe2e5597484209d48ce",
+                "reference": "332f2305ccacce4829c15fe2e5597484209d48ce",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=5.5.0",
+                "swaggest/code-builder": "^0.3.1",
+                "swaggest/json-schema": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.8.36"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Swaggest\\PhpCodeBuilder\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "Swaggest\\PhpCodeBuilder\\Tests\\": "tests/src/"
+                }
+            },
+            "scripts": {
+                "test": [
+                    "php -dxdebug.coverage_enable=1 ./vendor/bin/phpunit --coverage-text"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Viacheslav Poturaev",
+                    "email": "vearutop@gmail.com",
+                    "homepage": "https://github.com/vearutop"
+                }
+            ],
+            "description": "Swaggest JSON-schema enabled PHP code builder",
+            "homepage": "https://github.com/swaggest/php-code-builder",
+            "keywords": [
+                "library"
+            ],
+            "support": {
+                "source": "https://github.com/nrutman/php-code-builder/tree/relative-path"
+            },
+            "time": "2018-12-04T21:05:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "swaggest/php-code-builder": 20,
+        "swaggest/json-schema": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

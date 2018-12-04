@@ -1,0 +1,26 @@
+{
+    "name": "jazzhr/hropen-php",
+    "description": "Automatic class generation for the OpenHR standard",
+    "type": "project",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "url": "https://github.com/nrutman/php-json-schema.git",
+            "type": "vcs"
+        },
+        {
+            "url": "https://github.com/nrutman/php-code-builder.git",
+            "type": "vcs"
+        }
+    ],
+    "require": {
+        "swaggest/php-code-builder": "dev-relative-path",
+        "swaggest/json-schema": "dev-relative-path"
+    },
+    "authors": [
+        {
+            "name": "Nate Rutman",
+            "email": "nate.rutman@jazzhr.com"
+        }
+    ]
+}
