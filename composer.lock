@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f50a6840b1ba5857f92fbb9b2b7d7b34",
+    "content-hash": "2ff557671afcf80f4a6abb8f396b48e3",
     "packages": [
         {
             "name": "php-yaoi/php-yaoi",
@@ -191,15 +191,15 @@
         },
         {
             "name": "swaggest/json-diff",
-            "version": "v3.5.0",
+            "version": "dev-relative-path",
             "source": {
                 "type": "git",
-                "url": "https://github.com/swaggest/json-diff.git",
+                "url": "https://github.com/nrutman/json-diff.git",
                 "reference": "dadb65fbc6888c9066c9eb167a98a721eb0f63a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swaggest/json-diff/zipball/dadb65fbc6888c9066c9eb167a98a721eb0f63a1",
+                "url": "https://api.github.com/repos/nrutman/json-diff/zipball/dadb65fbc6888c9066c9eb167a98a721eb0f63a1",
                 "reference": "dadb65fbc6888c9066c9eb167a98a721eb0f63a1",
                 "shasum": ""
             },
@@ -217,7 +217,11 @@
                     "Swaggest\\JsonDiff\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Swaggest\\JsonDiff\\Tests\\": "tests/src"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -228,6 +232,9 @@
                 }
             ],
             "description": "JSON diff/rearrange/patch/pointer library for PHP",
+            "support": {
+                "source": "https://github.com/nrutman/json-diff/tree/v3.5.0"
+            },
             "time": "2018-09-20T15:30:09+00:00"
         },
         {
@@ -236,18 +243,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nrutman/php-json-schema.git",
-                "reference": "2d79489056c185b72fa4d3e4a4d35ccfd87cc63b"
+                "reference": "5ad756dcff22fa179821afddb34a068b2c23bdac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nrutman/php-json-schema/zipball/2d79489056c185b72fa4d3e4a4d35ccfd87cc63b",
-                "reference": "2d79489056c185b72fa4d3e4a4d35ccfd87cc63b",
+                "url": "https://api.github.com/repos/nrutman/php-json-schema/zipball/5ad756dcff22fa179821afddb34a068b2c23bdac",
+                "reference": "5ad756dcff22fa179821afddb34a068b2c23bdac",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4",
                 "phplang/scope-exit": "^1.0",
-                "swaggest/json-diff": "^3.4.2"
+                "swaggest/json-diff": "*"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "^0.4.0",
@@ -284,9 +291,9 @@
             "description": "High definition PHP structures with JSON-schema based validation",
             "support": {
                 "email": "vearutop@gmail.com",
-                "source": "https://github.com/nrutman/php-json-schema/tree/master"
+                "source": "https://github.com/nrutman/php-json-schema/tree/relative-path"
             },
-            "time": "2018-11-11T16:55:55+00:00"
+            "time": "2018-12-04T21:30:33+00:00"
         },
         {
             "name": "swaggest/php-code-builder",
@@ -353,7 +360,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "swaggest/php-code-builder": 20,
-        "swaggest/json-schema": 20
+        "swaggest/json-schema": 20,
+        "swaggest/json-diff": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
